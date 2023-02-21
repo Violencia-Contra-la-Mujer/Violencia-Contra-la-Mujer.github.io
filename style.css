@@ -1,0 +1,548 @@
+*   {
+    box-sizing: border-box;
+}
+
+body    {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    background-color: bisque;
+}
+
+a{
+    text-decoration: none;
+    color:darksalmon
+   
+}
+
+header{ 
+    display: flex;
+    min-height: 50px;
+    background-color:purple;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px 0 10px;
+    flex-direction: column;
+    margin: 0 ;
+}
+
+.logo   { 
+    display: flex;
+    align-items: center;
+    margin: 0;
+
+}
+.logo img   {
+    height: 50px; 
+    width: auto;
+    padding-left: 50px;
+    align-items: center;  
+    margin: 0;
+}
+
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+   
+}
+
+nav a:hover {
+color:rgb(44, 240, 230)
+}*   {
+    box-sizing: border-box;
+}
+
+body    {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    background-color: bisque;
+}
+
+a{
+    text-decoration: none;
+    color:darksalmon
+   
+}
+
+header{ 
+    display: flex;
+    min-height: 50px;
+    max-height: auto;
+    background-color:purple;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5px 0 15px;
+    flex-direction: column;
+}
+
+.logo   { 
+    display: flex;
+    align-items: center;
+
+}
+.logo img   {
+    height: 60px; 
+    width: auto;
+    padding-left: 5px;
+    align-items: center;  
+}
+
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+   
+}
+
+nav a:hover {
+color:rgb(44, 240, 230)
+}
+
+#hero   {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: end;
+    flex-direction: column;
+    height: 40vh;
+    color: darkmagenta;
+    background-image: url(primera\ imagen.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    }
+    
+h1  {
+    font-size: 1.75em;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;  
+    display: flex;    
+    align-items: center;
+    justify-content: center;
+    text-align: center;        
+    flex-direction: column;
+    }
+   
+h2  {
+    font-size: 1.25em;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    }
+    
+h3  {
+    font-size: 1em;
+    font-family: Georgia, 'Times New Roman', Times, serif
+    }
+
+    .title  {
+        text-decoration: none;
+        color:indigo;
+        display: flex;
+        flex-direction: column;      
+    }
+    
+    .style2 {
+        text-decoration: none;
+        color: darkred;
+        display: flex;
+        flex-direction: column;
+        padding: 0px 1em 0 10px;
+      
+    }
+    
+        
+    .machismo       {
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        display: flex;
+        flex-direction: column;
+        padding: 3px 10px 0 10px;
+        text-align: justify;
+    }
+    
+    .concepto   {
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        display: flex;
+        flex-direction: column;
+        padding: 0px 10px 0 10px;
+        text-align: justify;
+    }
+    
+    .factores1  {
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        display: flex;
+        flex-direction: column;
+        padding: 0px 10px 0 10px;
+        text-align: justify;
+    }
+    
+    .ministerio {
+        text-decoration: none;
+        color: darkred;
+        display: flex;
+        flex-direction: column;
+        padding: 0px 0em 0 0em;
+        text-align: justify;
+    }
+    
+    .ministerio1    {
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        display: flex;
+        flex-direction: column;
+        padding: 0px 10px 0 10px;
+        text-align: justify;
+    }
+    
+    .CEM    {
+        text-decoration: none;
+        color:blue;
+        display: flex;
+        flex-direction: column;
+        padding: 0px 0em 0 0em;
+        text-align: justify;
+    }
+    
+    .style3 {
+        text-decoration: none;
+        color:blue;
+        display: flex;
+        flex-direction: column;
+        padding: 0px 10px 0 15px;
+    }
+    
+    .tipos  {
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        display: flex;
+        flex-direction: column;
+        padding: 0px 10px 1px 15px;
+        text-align: justify;
+    }
+    
+    .consecuencias  {
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        display: flex;
+        flex-direction: column;
+        padding: 1px 10px 1px 15px;
+        text-align: justify;
+    }
+    
+    .factores2   {
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        display: flex;
+        flex-direction: column;
+        padding: 1px 10px 1px 10px;
+        text-align: justify;
+    }
+    
+    .violencia1 {
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        display: flex;
+        flex-direction: column;
+        padding: 0px 10px 1px 15px; 
+        text-align: justify;
+    }
+    
+    .ministerio2    {
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        display: flex;
+        flex-direction: column;
+        padding: 0px 10px 0px 15px; 
+        text-align: justify;
+     }
+
+     @media (min-width: 900px)  {
+        *   {
+            box-sizing: border-box;
+        }
+        
+        
+        
+        body    {
+            font-family: 'Times New Roman', Times, serif;
+            margin: 0;
+        }
+        
+        a{
+            text-decoration: none;
+            color:darksalmon
+        }
+        
+        header{ 
+            display: flex;
+            min-height: 50px;
+            background-color:purple;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 0 0 10px;
+            flex-direction: row;
+            position: fixed;
+            width: 100%;
+        }
+        
+        .logo   { 
+            display: flex;
+            align-items: center;
+        }
+        .logo img   {
+            height: 80px; 
+            margin-right: 10px;
+            margin: 0;
+        }
+        
+        header nav a{
+            font-weight: 600;
+            padding-right: 10px;
+        }
+        
+        nav a:hover {
+        color:rgb(44, 240, 230)
+        } 
+
+        .title  {
+            text-decoration: none;
+            color:indigo;
+            display: flex;
+            flex-direction: cover;
+            padding:0px 1em 0 2em;
+          
+        }
+        
+        .style2 {
+            text-decoration: none;
+            color: darkred;
+            display: flex;
+            flex-direction: column;
+            padding: 0px 1em 0 1em;
+            
+        }
+        
+            
+        .machismo       {
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+            display: flex;
+            flex-direction: column;
+            padding: 0px 3em 0 2em;
+        }
+        
+        .concepto   {
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+            display: flex;
+            flex-direction: column;
+            padding: 0px 3em 0 2em;
+        }
+        
+        .factores1  {
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+            display: flex;
+            flex-direction: column;
+            padding: 0px 3em 0 2em;
+        }
+        
+        .ministerio {
+            text-decoration: none;
+            color: darkred;
+            display: flex;
+            flex-direction: column;
+            padding: 0px 0em 0 0em;
+        }
+        
+        .ministerio1    {
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+            display: flex;
+            flex-direction: column;
+            padding: 0px 5em 0 2em;
+        }
+        
+        .CEM    {
+            text-decoration: none;
+            color:blue;
+            display: flex;
+            flex-direction: column;
+            padding: 0px 0em 0 0em;
+        }
+        
+        .style3 {
+            text-decoration: none;
+            color:blue;
+            display: flex;
+            flex-direction: column;
+            padding: 0px 3em 0 2.75em;
+        }
+        
+        .tipos  {
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+            display: flex;
+            flex-direction: column;
+            padding: 1px 5em 1px 4em;
+            text-align: justify;
+        }
+        
+        .consecuencias  {
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+            display: flex;
+            flex-direction: column;
+            padding: 1px 5em 1px 4em;
+            text-align: justify;
+        }
+        
+        .factores2   {
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+            display: flex;
+            flex-direction: column;
+            padding: 1px 5em 1px 3.75em;
+        }
+        
+        .violencia1 {
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+            display: flex;
+            flex-direction: column;
+            padding: 1px 5em 1px 3.75em; 
+        }
+        
+        .ministerio2    {
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+            display: flex;
+            flex-direction: column;
+            padding: 1px 3em 1px 4em; 
+        }
+        
+        .title  {
+            font-family: 'Courier New', Courier, monospace;
+        }
+        
+        h1  {font-size: 3em;
+             font-family:Verdana, Geneva, Tahoma, sans-serif
+             
+            }
+            
+        h2  {font-size: 2em;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+            }
+        
+        h3  {font-size: 1.5em;
+            font-family: Georgia, 'Times New Roman', Times, serif
+        }
+        
+        #hero   {display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: end;
+        flex-direction: column;
+        height: 90vh;
+        color: darkmagenta;
+        background-image: url(primera\ imagen.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        }
+        
+        #fondo1 {
+            display: flex;
+            flex-direction: column;
+            height: 70vh;
+            background-image: url(fondo1.jpeg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin-left: 30px;
+            margin-top: 15px;
+            margin-bottom: 15px;
+            margin-right: 30px;
+            background-position: center center;  
+            padding: 5px 1em 0 2em; 
+            border: 5px;
+        }
+        
+        #fondo2 {
+            display: flex;
+            flex-direction: column;
+            height: 65vh;
+            background-image: url(fondo2.jpeg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin-left: 30px;
+            margin-top: 15px;
+            margin-bottom: 15px;
+            margin-right: 30px;
+            background-position: center center;  
+            padding: 5px 1em 5px 2em; 
+            border: 5px;
+        }
+        
+        #fondo3 {
+            display: flex;
+            flex-direction: column;
+            height: 45vh;
+            background-image: url(fondo3.jpeg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin-left: 30px;
+            margin-top: 15px;
+            margin-bottom: 15px;
+            margin-right: 30px;
+            background-position: center center;  
+            padding: 5px 1em 0 2em; 
+            border: 5px;
+        }
+        
+        #fondo31 {
+            display: flex;
+            flex-direction: column;
+            height: 145vh;
+            background-image: url(fondo3.jpeg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin-left: 30px;
+            margin-top: 15px;
+            margin-bottom: 15px;
+            margin-right: 30px;
+            background-position: center center;  
+            padding: 5px 1em 0 2em; 
+            border: 5px;
+        }
+        
+        #fondo4 {
+            display: flex;
+            flex-direction: column;
+            height: 120vh;
+            background-image: url(fondo4.jpeg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin-left: 30px;
+            margin-top: 15px;
+            margin-bottom: 15px;
+            margin-right: 30px;
+            background-position: center center;  
+            padding: 5px 1em 0 2em; 
+            border: 5px;
+        }
+        
+        #fondo5 {
+            display: flex;
+            flex-direction: column;
+            height: 115vh;
+            background-image: url(fondo5.jpeg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin-left: 30px;
+            margin-top: 15px;
+            margin-bottom: 15px;
+            margin-right: 30px;
+            background-position: center center;  
+            padding: 5px 1em 0 2em; 
+            border: 5px;
+        }
+        
+     }
