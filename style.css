@@ -499,7 +499,7 @@ h3  {
         
         #fondo31 {  display: flex;
             flex-direction: column;
-            height: 145vh;
+            height: 155vh;
             background-image: url(fondo3.jpeg);
             background-repeat: no-repeat;
             background-size: cover;
